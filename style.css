@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .xx{
     width: 50%;
@@ -19,16 +20,7 @@ section{
   width: 80%;  
   padding-left: 10%;
 }
-.link{
-    text-decoration: none;
-    background-color:linear-gradient(orange,tomato);
- border-radius: 5px;
-color: white;
-font-weight: 400;
 
-
-
-}
 .linked-button{
     text-decoration: none;
 background-image: linear-gradient(orange , tomato);
@@ -39,10 +31,18 @@ color: white;
 
 
 }
+
 .top-banner {
 
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+
+}
+
+.dream-big{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 
 }
 
